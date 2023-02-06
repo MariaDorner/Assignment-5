@@ -1,0 +1,45 @@
+/*General*/
+* {
+  margin: 0;
+  padding: 0;
+}
+.btn {
+  width: 175px;
+  height: 53px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+  background: #ff9900;
+  border-radius: 6px;
+  border: none;
+  transition: 0.9s;
+  margin-right: 30px;
+}
+.btn:hover {
+  color: #2f281e;
+  background-color: #fff;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px 2px #ff9900;
+}
+
+/*General Feature*/
+.card-title-ftr {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #2f281e;
+  margin-top: 25px;
+}
+.card-text-ftr {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #544837;
+}
