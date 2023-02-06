@@ -26,6 +26,24 @@
 }
 
 /*General Feature*/
+.icon-box {
+  position: relative;
+}
+.icon-box::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 19px;
+  z-index: -1;
+  top: -19px;
+  left: -5px;
+}
+.fa-solid {
+  color: #fff;
+}
+
 .card-title-ftr {
   font-family: "Poppins";
   font-style: normal;
@@ -37,6 +55,36 @@
 }
 .card-text-ftr {
   font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #544837;
+}
+/*General Info Section*/
+.info-title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+
+  color: #2f281e;
+}
+.info-sub-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #2f281e;
+}
+.text-info-container {
+  display: flex;
+  flex-direction: column;
+}
+.text-info {
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
