@@ -213,4 +213,24 @@
 .container-info {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  margin: 250px 100px 50px 140px;
+  column-gap: 100px;
+  row-gap: 100px;
+}
+.text-info-mrg {
+  margin-bottom: 30px;
+}
+.text-and-icon-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.text-and-icon-subcontainer {
+  display: flex;
+  column-gap: 40px;
+  align-items: center;
+}
+.info-icon-img {
+  width: 35px;
+  height: 35px;
 }
